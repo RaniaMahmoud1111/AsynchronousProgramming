@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CAProcessAndThread", "CAProcessAndThread\CAProcessAndThread.csproj", "{0DBAB8A0-BD0A-4CFE-98FE-9DD9657E2083}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CASequential", "CASequential\CASequential.csproj", "{65552E00-CB34-4ACC-B5DE-6E9E85D1E9D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CAMultiThreading", "CAMultiThreading\CAMultiThreading.csproj", "{651F167C-3C66-478B-A9C7-7056A5FE057E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CARaceCondition", "CARaceCondition\CARaceCondition.csproj", "{54823D2F-57BC-41A0-97A8-54398FF95A88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CADeadLock", "CADeadLock\CADeadLock.csproj", "{C279D414-4845-481B-ABB6-D50E2000000B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CAThreadPool", "CAThreadPooling\CAThreadPool.csproj", "{FB4C2720-6858-498C-A33B-2077EA7C36A5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DBAB8A0-BD0A-4CFE-98FE-9DD9657E2083}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DBAB8A0-BD0A-4CFE-98FE-9DD9657E2083}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DBAB8A0-BD0A-4CFE-98FE-9DD9657E2083}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DBAB8A0-BD0A-4CFE-98FE-9DD9657E2083}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65552E00-CB34-4ACC-B5DE-6E9E85D1E9D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65552E00-CB34-4ACC-B5DE-6E9E85D1E9D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65552E00-CB34-4ACC-B5DE-6E9E85D1E9D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65552E00-CB34-4ACC-B5DE-6E9E85D1E9D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{651F167C-3C66-478B-A9C7-7056A5FE057E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{651F167C-3C66-478B-A9C7-7056A5FE057E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{651F167C-3C66-478B-A9C7-7056A5FE057E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{651F167C-3C66-478B-A9C7-7056A5FE057E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54823D2F-57BC-41A0-97A8-54398FF95A88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54823D2F-57BC-41A0-97A8-54398FF95A88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54823D2F-57BC-41A0-97A8-54398FF95A88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54823D2F-57BC-41A0-97A8-54398FF95A88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C279D414-4845-481B-ABB6-D50E2000000B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C279D414-4845-481B-ABB6-D50E2000000B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C279D414-4845-481B-ABB6-D50E2000000B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C279D414-4845-481B-ABB6-D50E2000000B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB4C2720-6858-498C-A33B-2077EA7C36A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB4C2720-6858-498C-A33B-2077EA7C36A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB4C2720-6858-498C-A33B-2077EA7C36A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB4C2720-6858-498C-A33B-2077EA7C36A5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6BB9C488-23F7-456B-800D-7732E5462FA3}
+	EndGlobalSection
+EndGlobal
