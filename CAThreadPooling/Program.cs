@@ -69,7 +69,6 @@ namespace CAThreadPool
     }
 
 
-
     class Employee
     {
         public decimal TotalHour{ get; set; }
